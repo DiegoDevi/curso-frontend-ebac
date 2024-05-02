@@ -29,8 +29,3 @@
 
 ## Documentação
 https://api.jquery.com/category/events/
-
-## Plugins
-jQuery Mask https://igorescobar.github.io/jQuery-Mask-Plugin
-
-jQuery UI https://jqueryui.com
