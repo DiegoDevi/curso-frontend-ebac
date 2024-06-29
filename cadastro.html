@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>Logo</h1>
+                    <h1>OMNIBUS</h1>
                 </div>
                 <div class="col">
                     <ul class="nav justify-content-end">
@@ -46,12 +46,12 @@
                 <div class="row">
                     <div class="col">
                         <div class="input-group">
-                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome" required>
                         </div>
                     </div>
                     <div class="col">
                         <div class="input-group">
-                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email" required>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,21 @@
                 <div class="row">
                     <div class="col">
                         <label for="endereco" class="col-form-label col-form-label-sm">Endereço completo</label>
-                        <input type="text" id="endereco" class="form-control" placeholder="Endereço completo">
+                        <input type="text" id="endereco" class="form-control" placeholder="Endereço completo" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="endereco" class="col-form-label col-form-label-sm">Complemento</label>
+                        <input type="text" id="endereco" class="form-control" placeholder="Complemento">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="endereco" class="col-form-label col-form-label-sm">Bairro</label>
+                        <input type="text" id="endereco" class="form-control" placeholder="Bairro" required>
                     </div>
                 </div>
 
@@ -75,11 +89,21 @@
                             <option value="sp">SP</option>
                             <option value="al">AL</option>
                             <option value="mg">MG</option>
+                            <option value="rj">RJ</option>
+                            <option value="pr">PR</option>
+                            <option value="df">DF</option>
+                            <option value="sc">SC</option>
+                            <option value="rs">RS</option>
+                            <option value="am">AM</option>
                         </select>
                     </div>
                     <div class="col">
                         <label for="cep" class="col-form-label col-form-label-sm">CEP</label>
-                        <input type="text" name="cep" id="cep" class="form-control">
+                        <input type="number" name="cep" id="cep" class="form-control" required>
+                    </div>
+                    <div class="col">
+                        <label for="cep" class="col-form-label col-form-label-sm">TELEFONE</label>
+                        <input type="number" name="telefone" id="telefone" class="form-control" required>
                     </div>
                 </div>
 
